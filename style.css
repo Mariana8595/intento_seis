@@ -1,0 +1,114 @@
+.c0{
+    background-color: #F0F0F0;
+    /* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: rgb(222, 219, 219);
+    font-size: 35px;
+    cursor: pointer;
+  }
+}
+.c1{
+    background-color: #F0F0F0;
+}
+.c2{
+    background-color: #F0F0F0;
+}
+.c3{
+    background-color: #F0F0F0;
+}
+.c4{
+    background-color: #F0F0F0;
+}
+.c5{
+    background-color: #F0F0F0;
+    .btn-primary-custom{
+        background-color: #32CD32 !important;
+        border-color: #32CD32 !important;
+    }
+    .btn-custom {
+        background-color: #f9efeffc; /* Fondo blanco */
+        color: #32CD32; /* Color de las estrellas (verde) */
+        border-color: #ffffff; /* Borde blanco */
+    }
+    
+    .btn-custom .bi-star-fill {
+        color: #32CD32; /* Color de las estrellas (verde) */
+    }
+    }
+.c6{
+    background-color: #F0F0F0;
+    .btn-primary-custom{
+    background-color: #32CD32 !important;
+    border-color: #32CD32 !important;
+}
+.btn-custom {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #32CD32; /* Color de las estrellas (verde) */
+    border-color: #ffffff; /* Borde blanco */
+}
+
+.btn-custom .bi-star-fill {
+    color: #32CD32; /* Color de las estrellas (verde) */
+}
+}
+.c7{
+    background-color: #F0F0F0;
+    .btn-primary-custom{
+        background-color: #32CD32 !important;
+        border-color: #32CD32 !important;
+    }
+    .btn-custom {
+        background-color: #f9efeffc; /* Fondo blanco */
+        color: #32CD32; /* Color de las estrellas (verde) */
+        border-color: #ffffff; /* Borde blanco */
+    }
+    
+    .btn-custom .bi-star-fill {
+        color: #32CD32; /* Color de las estrellas (verde) */
+    } 
+}
+.c8{
+    background-color: #F0F0F0;
+}
