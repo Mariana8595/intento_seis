@@ -38,59 +38,86 @@
     </div>
     <div class="container c1">
       <div class="row">
-          <div class="col-sm-12 col-md-4 col-xl-6">
+          <div class="col-sm-12 col-md-4 col-xl-3">
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque illum dolore fuga obcaecati exercitationem. Perferendis officiis, officia sequi, nihil consectetur, numquam sed dolor dolore tempora blanditiis quis quibusdam quisquam illum?</p>
           </div>
-          <div class="col-sm-12 col-md-4 col-xl-6">
+          <div class="col-sm-12 col-md-4 col-xl-3">
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque illum dolore fuga obcaecati exercitationem. Perferendis officiis, officia sequi, nihil consectetur, numquam sed dolor dolore tempora blanditiis quis quibusdam quisquam illum?</p>
           </div>
+          <div class="col-sm-12 col-md-4 col-xl-3">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque illum dolore fuga obcaecati exercitationem. Perferendis officiis, officia sequi, nihil consectetur, numquam sed dolor dolore tempora blanditiis quis quibusdam quisquam illum?</p>
+          </div>
+          <div class="col-sm-12 col-md-4 col-xl-3">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque illum dolore fuga obcaecati exercitationem. Perferendis officiis, officia sequi, nihil consectetur, numquam sed dolor dolore tempora blanditiis quis quibusdam quisquam illum?</p>
       </div>
-  </div>          
+    </div>
+    </div>          
     <div class="container c2">
-        <div class="row">
-            <div class="col-sm-12 col-md-4 col-xl-3">
-                <p>c1 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi blanditiis voluptates animi quaerat consequatur repellat in praesentium cum harum, amet eos velit, a illum quis, eaque aliquid. Deleniti, officiis.c1</p>
-            </div>
-            <div class="col-sm-12 col-md-4 col-xl-3">
-                <p>c2Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque illum dolore fuga obcaecati exercitationem. Perferendis officiis, officia sequi, nihil consectetur, numquam sed dolor dolore tempora blanditiis quis quibusdam quisquam illum?c2</p>
-            </div>
-            <div class="col-sm-12 col-md-4 col-xl-3">
-              <p>c3Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque illum dolore fuga obcaecati exercitationem. Perferendis officiis, officia sequi, nihil consectetur, numquam sed dolor dolore tempora blanditiis quis quibusdam quisquam illum?c3</p>
-            </div>
-            <div class="col-sm-12 col-md-4 col-xl-3">
-            <p>c4Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque illum dolore fuga obcaecati exercitationem. Perferendis officiis, officia sequi, nihil consectetur, numquam sed dolor dolore tempora blanditiis quis quibusdam quisquam illum?c4</p>
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-xl-6">
+          <img src="./imagenes/portada2.jpeg" alt="Portada" class="col-sm-12 col-md-4 col-xl-12">
+        </div>
+        <div class="col-sm-12 col-md-4 col-xl-6">
+              <p>c3Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, praesentium autem nesciunt dolore pariatur amet vel architecto nihil minus. Quasi doloremque, assumenda id incidunt laborum alias sapiente ex beatae doloribus.c3</p>
+            <label for="cars">Choose a car:</label>
+            <select id="cars" name="cars">
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="fiat">Fiat</option>
+              <option value="audi">Audi</option>
+            </select>
+
+        <div class="col-sm-12 col-md-4 col-xl-6">
+              <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+              <br><br>
+              <input type="submit">
+              </form>
         </div>
         </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-4 col-xl-3">
-              <p>c5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint pariatur, modi fuga qui omnis molestiae possimus quae! Fugit, nihil, architecto illum incidunt quam voluptatem saepe numquam ut dolorum facilis nobis.c5</p>
+      <div class="row">
+          <div class="col-sm-12 col-md-4 col-xl-6">
+              <!-- The grid: four columns -->
+            <div class="row">
+              <div class="column">
+                <img src="./imagenes/portada3.webp" alt="Acercamiento" class="col-sm-12 col-md-4 col-xl-12" onclick="myFunction(this);">
+              </div>
+              <div class="column">
+                <img src="./imagenes/portada4.webp" alt="Exterior" class="col-sm-12 col-md-4 col-xl-12" onclick="myFunction(this);">
+              </div>
+              <div class="column">
+                <img src="./imagenes/portada6.jpg" alt="Exterior_2" class="col-sm-12 col-md-4 col-xl-12" onclick="myFunction(this);">
+              </div>
+              <div class="column">
+                <img src="./imagenes/portada7.jpg" alt="Voltaje" class="col-sm-12 col-md-4 col-xl-12" onclick="myFunction(this);">
+              </div>
           </div>
-          <div class="col-sm-12 col-md-4 col-xl-3">
-              <p>c6Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda exercitationem esse eaque est sed aspernatur quaerat dicta veritatis ipsum maiores ratione corporis qui blanditiis, numquam harum nemo, quam commodi obcaecati!c6</p>
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
           </div>
-          <div class="col-sm-12 col-md-4 col-xl-3">
+          <div class="col-sm-12 col-md-4 col-xl-6">
               <p>c7Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae sapiente labore sit. Eveniet, cupiditate labore officia excepturi repellat fuga aspernatur, quibusdam assumenda debitis odit recusandae, soluta provident amet sequi asperiores.c7</p>
           </div>
-          <div class="col-sm-12 col-md-4 col-xl-3">
-              <p>c8Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, veniam. Facere recusandae deleniti libero repellat, earum vero amet incidunt maiores natus dicta temporibus eos rem. Quas velit autem fuga voluptas?c8</p>
-          </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12 col-md-4 col-xl-3">
-            <p>c9Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nisi, ab eligendi dignissimos repellat, enim ex incidunt quos hic, ipsum neque ipsa eveniet architecto nemo. Et aperiam qui asperiores reprehenderit.c9</p>
         </div>
-        <div class="col-sm-12 col-md-4 col-xl-3">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-xl-6">
             <p>c10Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, provident explicabo doloribus iste facilis dolorem voluptatem cumque molestiae. Repellat sit totam et eaque ad eligendi aliquam corrupti iure ex debitis.c10</p>
         </div>
-        <div class="col-sm-12 col-md-4 col-xl-3">
+        <div class="col-sm-12 col-md-4 col-xl-6">
             <p>c11Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, iste explicabo. Eveniet neque reprehenderit explicabo corrupti vitae quos at doloribus quidem amet quasi cum, aut, numquam, ducimus maxime nihil quibusdam!c11</p>
         </div>
-        <div class="col-sm-12 col-md-4 col-xl-3">
-            <p>c12Lorem ipsum dolor sit amet consectetur adipisicing elit. Non labore ipsam totam! Voluptatum doloribus quo quia numquam eligendi, laboriosam aspernatur dignissimos error. Sapiente nobis velit hic maiores ipsum veniam debitis!c12</p>
         </div>
     </div>
-    </div>
-    <div class="container c3">
+  </div>
+  <div class="container c3">
         <div class="row">
             <div class="col-sm-12 col-md-4 col-xl-6">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque illum dolore fuga obcaecati exercitationem. Perferendis officiis, officia sequi, nihil consectetur, numquam sed dolor dolore tempora blanditiis quis quibusdam quisquam illum?</p>
