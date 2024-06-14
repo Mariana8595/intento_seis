@@ -31,7 +31,7 @@
     position: absolute;
     bottom: 15px;
     left: 15px;
-    color: white;
+    color: rgb(13, 13, 13);
     font-size: 20px;
   }
   
@@ -40,7 +40,7 @@
     position: absolute;
     top: 10px;
     right: 15px;
-    color: rgb(222, 219, 219);
+    color: rgb(4, 4, 4);
     font-size: 35px;
     cursor: pointer;
   }
@@ -101,13 +101,13 @@
   }
 }
 .c3{
-    background-color: #F0F0F0;
+    background-color: #02b5f1;
 }
 .c4{
-    background-color: #F0F0F0;
+    background-color: #dc9ce1;
 }
 .c5{
-    background-color: #F0F0F0;
+    background-color: #aae2be;
     .btn-primary-custom{
         background-color: #32CD32 !important;
         border-color: #32CD32 !important;
@@ -123,7 +123,7 @@
     }
     }
 .c6{
-    background-color: #F0F0F0;
+    background-color: #ff6d6d;
     .btn-primary-custom{
     background-color: #32CD32 !important;
     border-color: #32CD32 !important;
@@ -139,7 +139,7 @@
 }
 }
 .c7{
-    background-color: #F0F0F0;
+    background-color: #757ae3;
     .btn-primary-custom{
         background-color: #32CD32 !important;
         border-color: #32CD32 !important;
@@ -155,5 +155,55 @@
     } 
 }
 .c8{
-    background-color: #F0F0F0;
+    position: fixed;  
+    background-color: #56eae3;
+    bottom: 20px;
+    right: 40px;
+    width: 300px; /* Ancho del contenedor de chat */
+    max-width: calc(100vw - 40px); /* Ancho máximo para evitar que se desborde */
+    z-index: 999;
+    border-radius: 10px; /* Añadir bordes redondeados para mejorar el aspecto */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añadir sombra para resaltar el contenedor */
+}
+.chat-popup {
+    position: relative;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    background-color: white; /* Añadimos un color de fondo */
+    padding: 20px; /* Añadimos espacio interno */
+    max-width: 300px; /* Ajustamos el ancho máximo */
+  }
+.form-container {
+    width: 100%
+  }
+.form-container textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+  .form-container .cancel {
+    background-color: red;
+  }
+
+  .form-container .btn:hover,
+  .open-button:hover {
+      opacity: 1;
+  }
+.c9{
+    background-color: #ff6d6d;
+}
+.c10{
+  background-color: grey;
 }

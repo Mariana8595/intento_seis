@@ -23,4 +23,22 @@ function myFunction(imgs) {
     // Show the container element (hidden with CSS)
     expandImg.parentElement.style.display = "block";
   }
-  
+  // Función para abrir, cerrar o minimizar el chat
+  function toggleForm() {
+    var chatPopup = document.getElementById("myForm");
+    var chatTitle = document.getElementById("chatTitle");
+    var chatButton = document.querySelector(".container.c8 button");
+    var enviarBtn = document.getElementById("enviarBtn");
+
+    if (chatPopup.style.display === "none" || chatPopup.style.display === "") {
+        chatPopup.style.display = "block";
+        chatTitle.innerHTML = "Chat";
+        chatButton.style.display = "none"; // Ocultar el botón "Chat" cuando la ventana de chat está abierta
+        enviarBtn.style.display = "block"; // Mostrar el botón "Enviar" cuando la ventana de chat está abierta
+    } else {
+        chatPopup.style.display = "none";
+        chatTitle.innerHTML = "¿Tienes alguna duda? Chatea conmigo";
+        chatButton.style.display = "block"; // Mostrar el botón "Chat" cuando la ventana de chat está minimizada
+        enviarBtn.style.display = "none"; // Ocultar el botón "Enviar" cuando la ventana de chat está minimizada
+    }
+}
