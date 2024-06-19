@@ -52,7 +52,30 @@
       <div class="row">
         <div class="col-sm-12 col-md-4 col-xl-6">
           <img src="./imagenes/portada2.jpeg" alt="Portada" class="col-sm-12 col-md-4 col-xl-12">
+          <div class="row">
+            <div class="column">
+              <img src="./imagenes/portada3.webp" alt="Acercamiento" class="col-sm-12 col-md-4 col-xl-12" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="./imagenes/portada4.webp" alt="Exterior" class="col-sm-12 col-md-4 col-xl-12" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="./imagenes/portada6.jpg" alt="Exterior_2" class="col-sm-12 col-md-4 col-xl-12" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="./imagenes/portada7.jpg" alt="Voltaje" class="col-sm-12 col-md-4 col-xl-12" onclick="myFunction(this);">
+          </div>
         </div>
+    </div>
+    <!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
         <div class="col-sm-12 col-md-4 col-xl-6">
               <p>El ventilador de techo Morrow Bay 1.32 metros cuenta con estilo transitorio, motor reversible de alta resistencia, un kit de luz LED regulable integrado que evoca una simplicidad refrescante y combina líneas limpias con detalles cálidos.</p>
             <label for="cars">Color:</label>
@@ -62,15 +85,15 @@
               <option value="fiat">Blanco</option>
               <option value="audi">Azul</option>
             </select>
-        <div class="col-sm-12 col-md-4 col-xl-6">
+        <div class="col-sm-12 col-md-4 col-xl-8">
               <br><br>
           <textarea name="message" rows="10" cols="30">¿Necesitas algún requerimiento especial? Escríbelo aquí</textarea>
               <br><br>
               <input type="submit">
               </form>
               <ul>
-                <br><br>
-                <h3>Características</h3><br><br>
+                <br>
+                <h3>Características</h3><br>
                 <li>Para espacios interiores y exteriores</li>
                 <li>52 Pulgadas (132 cm) de diámetro</li>
                 <li>5 Aspas Reversibles</li>
@@ -87,32 +110,6 @@
               </ul>    
         </div>
         </div>
-      <div class="row">
-          <div class="col-sm-12 col-md-4 col-xl-6">
-              <!-- The grid: four columns -->
-            <div class="row">
-              <div class="column">
-                <img src="./imagenes/portada3.webp" alt="Acercamiento" class="col-sm-12 col-md-4 col-xl-12" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./imagenes/portada4.webp" alt="Exterior" class="col-sm-12 col-md-4 col-xl-12" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./imagenes/portada6.jpg" alt="Exterior_2" class="col-sm-12 col-md-4 col-xl-12" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./imagenes/portada7.jpg" alt="Voltaje" class="col-sm-12 col-md-4 col-xl-12" onclick="myFunction(this);">
-            </div>
-          </div>
-<!-- The expanding image container -->
-<div class="container">
-  <!-- Close the image -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <!-- Expanded image -->
-  <img id="expandedImg" style="width:100%">
-  <!-- Image text -->
-  <div id="imgtext"></div>
-</div>
           </div>
         </div>
     </div>
