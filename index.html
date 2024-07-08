@@ -16,124 +16,159 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
       </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+      </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100..900&display=swap');
+      </style>
+    <style>
+      /* Estilo para ocultar el texto adicional inicialmente */
+      #masTexto {
+        display: none;
+      }
+    </style>
 </head>
 <body>
-    <div class="container c0">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html"><img src="./fantastic/logo.png" alt="inicio"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="acerca_de_mi.html">Acerca de mí</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Servicios y productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Portafolio</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-        </nav>
+<!--menú-->
+  <div class="container c0">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="./fantastic/logo.png" alt="Bootstrap" width="270" height="180">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="acerca_de_mi.html">Acerca de mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="acerca_de_mi.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
     </div>
+<!--título-->    
     <div class="container c1">
       <div class="row">
-          <div class="col-sm-12 col-md-4 col-xl-12">
+          <div class="col-sm-12 col-xl-12">
             <p>Ventilador Morrow de techo con cadena. Artesanal, para exteriores, diámetro de 1.32 metros y luz LED en color espresso</p>
       </div>
     </div>
-    </div>          
+    </div>   
+<!--Portada: imagen, botón, formulario y características-->        
     <div class="container c2">
-      <div class="row">
-        <div class="col-sm-12 col-md-4 col-xl-6">
-          <img src="./imagenes/portada2.jpeg" alt="Portada" class="col-sm-12 col-md-4 col-xl-12">
+    <div class="row">
+    <div class="col-sm-12 col-xl-6">
+          <img src="./imagenes/portada2.jpeg" alt="Portada" class="img-fluid">
           <div class="row">
             <div class="column">
-              <img src="./imagenes/portada3.webp" alt="Acercamiento" class="col-sm-12 col-md-4 col-xl-12" onclick="myFunction(this);">
+              <img src="./imagenes/portada3.webp" alt="Acercamiento" class="img-fluid" onclick="myFunction(this);">
             </div>
             <div class="column">
-              <img src="./imagenes/portada4.webp" alt="Exterior" class="col-sm-12 col-md-4 col-xl-12" onclick="myFunction(this);">
+              <img src="./imagenes/portada4.webp" alt="Exterior" class="img-fluid" onclick="myFunction(this);">
             </div>
             <div class="column">
-              <img src="./imagenes/portada6.jpg" alt="Exterior_2" class="col-sm-12 col-md-4 col-xl-12" onclick="myFunction(this);">
+              <img src="./imagenes/portada6.jpg" alt="Exterior_2" class="img-fluid" onclick="myFunction(this);">
             </div>
             <div class="column">
-              <img src="./imagenes/portada7.jpg" alt="Voltaje" class="col-sm-12 col-md-4 col-xl-12" onclick="myFunction(this);">
+              <img src="./imagenes/portada7.jpg" alt="Voltaje" class="img-fluid" onclick="myFunction(this);">
           </div>
         </div>
     </div>
+    <div class="col-sm-12  col-xl-6">
+      <p>El ventilador de techo Morrow Bay 1.32 metros cuenta con estilo transitorio, motor reversible de alta resistencia, un kit de luz LED regulable integrado que evoca una simplicidad refrescante y combina líneas limpias con detalles cálidos.</p>
+    <label for="cars">Color:</label>
+    <select id="cars" name="cars">
+      <option value="volvo">Espresso</option>
+      <option value="saab">Negro</option>
+      <option value="fiat">Blanco</option>
+      <option value="audi">Azul</option>
+    </select>
+<div class="col-sm-12  col-xl-8">
+      <br><br>
+  <textarea name="message" rows="10" cols="30">¿Necesitas algún requerimiento especial? Escríbelo aquí</textarea>
+      <br><br>
+      <button type="submit" class="btn-primary-custom">Enviar</button>
+      </form>
+      <div class="container-fluid">
+      <ul>
+        <br>
+        <h3>Características</h3><br>
+        <li>Para espacios interiores y exteriores</li>
+        <li>52 Pulgadas (132 cm) de diámetro</li>
+        <li>5 Aspas Reversibles</li>
+        <li>Incluye capota abierta para el kit de luz</li>
+        <li>Incluye un foco LED de 5W regulable</li>
+        <li>Incluye tubos de extensión de 4 y 2 pulgadas</li>
+        <li>Motor reversible de 3 velocidades WhisperWind</li>
+        <li>Cadena para ajuste de velocidades incluida</li>
+        <li>Garantía del motor de por vida</li>
+        <li>Garantía del resto de las partes de ventilador de 1 año</li>
+        <li>CFM (en velocidad alta): 4,905</li>
+        <li>Velocidad el Aire: 4.45 MPH / 7.16 KMPH</li>
+        <li>Lumens: 450</li>
+      </ul>
+    </div>    
+</div>
+    </div>
+    </div>
     <!-- The expanding image container -->
-<div class="container">
+    <div class="container">
   <!-- Close the image -->
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
   <!-- Expanded image -->
-  <img id="expandedImg" style="width:100%">
+  <img id="expandedImg" style="width:50%">
   <!-- Image text -->
   <div id="imgtext"></div>
-</div>
-        <div class="col-sm-12 col-md-4 col-xl-6">
-              <p>El ventilador de techo Morrow Bay 1.32 metros cuenta con estilo transitorio, motor reversible de alta resistencia, un kit de luz LED regulable integrado que evoca una simplicidad refrescante y combina líneas limpias con detalles cálidos.</p>
-            <label for="cars">Color:</label>
-            <select id="cars" name="cars">
-              <option value="volvo">Espresso</option>
-              <option value="saab">Negro</option>
-              <option value="fiat">Blanco</option>
-              <option value="audi">Azul</option>
-            </select>
-        <div class="col-sm-12 col-md-4 col-xl-8">
-              <br><br>
-          <textarea name="message" rows="10" cols="30">¿Necesitas algún requerimiento especial? Escríbelo aquí</textarea>
-              <br><br>
-              <input type="submit">
-              </form>
-              <ul>
-                <br>
-                <h3>Características</h3><br>
-                <li>Para espacios interiores y exteriores</li>
-                <li>52 Pulgadas (132 cm) de diámetro</li>
-                <li>5 Aspas Reversibles</li>
-                <li>Incluye capota abierta para el kit de luz</li>
-                <li>Incluye un foco LED de 5W regulable</li>
-                <li>Incluye tubos de extensión de 4 y 2 pulgadas</li>
-                <li>Motor reversible de 3 velocidades WhisperWind</li>
-                <li>Cadena para ajuste de velocidades incluida</li>
-                <li>Garantía del motor de por vida</li>
-                <li>Garantía del resto de las partes de ventilador de 1 año</li>
-                <li>CFM (en velocidad alta): 4,905</li>
-                <li>Velocidad el Aire: 4.45 MPH / 7.16 KMPH</li>
-                <li>Lumens: 450</li>
-              </ul>    
-        </div>
-        </div>
-          </div>
-        </div>
     </div>
     </div>
+<!--Container vacío jeje--> 
     <div class="container c3">
         <div class="row">
             <div class="col-sm-12 col-md-4 col-xl-6">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque illum dolore fuga obcaecati exercitationem. Perferendis officiis, officia sequi, nihil consectetur, numquam sed dolor dolore tempora blanditiis quis quibusdam quisquam illum?</p>
+                <p></p>
             </div>
             <div class="col-sm-12 col-md-4 col-xl-6">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque illum dolore fuga obcaecati exercitationem. Perferendis officiis, officia sequi, nihil consectetur, numquam sed dolor dolore tempora blanditiis quis quibusdam quisquam illum?</p>
+              <p></p>
             </div>        
         </div>  
     </div>
+<!--Container vacío jeje-->
     <div class="container c4">
         <div class="row">
             <div class="col-sm-12 col-md-4 col-xl-6">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque illum dolore fuga obcaecati exercitationem. Perferendis officiis, officia sequi, nihil consectetur, numquam sed dolor dolore tempora blanditiis quis quibusdam quisquam illum?</p>
+                <p></p>
             </div>
             <div class="col-sm-12 col-md-4 col-xl-6">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque illum dolore fuga obcaecati exercitationem. Perferendis officiis, officia sequi, nihil consectetur, numquam sed dolor dolore tempora blanditiis quis quibusdam quisquam illum?</p>
+                <p></p>
             </div>
         </div>
     </div>
+<!--Beneficios-->
     <div class="container c5">
       <div class="row">
           <h3 class="text-center">Beneficios</h3>
@@ -144,8 +179,9 @@
                       <img src="./imagenes/beneficio_1.jpeg" class="card-img-top" alt="beneficio_1">
                       <div class="card-body">
                         <h5 class="card-title">Eficiencia energética</h5>
-                        <p class="card-text">Los ventiladores consumen menos energía en comparación con los sistemas de aire acondicionado, lo que reduce los costos de electricidad.</p>
-                        <a href="#" class="btn btn-primary-custom">Ver más</a>
+                        <p class="card-text recortado">Los ventiladores consumen menos energía que los sistemas de aire acondicionado, lo que resulta en ahorros significativos en los costos eléctricos...</p>
+                        <p id="masTexto">Esta eficiencia los convierte en una opción económica y sostenible para mantener ambientes frescos y confortables, especialmente en climas moderados o como complemento a otras soluciones de climatización.</p>
+                        <button id="botonVerMas" class="btn btn-primary-custom">Ver más</button>
                       </div>
                     </div>
           </div>
@@ -154,8 +190,9 @@
                       <img src="./imagenes/beneficio_2.jpeg" class="card-img-top" alt="beneficio_2">
                       <div class="card-body">
                         <h5 class="card-title">Mejora la circulación del aire</h5>
-                        <p class="card-text">Ayudan a distribuir el aire de manera uniforme en un espacio, lo que puede mejorar la ventilación y la calidad del aire interior.</p>
-                        <a href="#" class="btn btn-primary-custom">Ver más</a>
+                        <p class="card-text recortado">Los ventiladores de techo son una opción eficaz para mejorar la circulación del aire sin ocupar espacio en el suelo. Su diseño permite una distribución uniforme del aire, promoviendo una mejor ventilación en toda la habitación...</p>
+                        <p id="masTexto1">Esto es especialmente beneficioso para espacios grandes o con techos altos, donde la circulación natural puede ser limitada.</p>
+                        <button id="botonVerMas1" class="btn btn-primary-custom">Ver más</button>
                       </div>
                     </div>
           </div>
@@ -164,13 +201,15 @@
                     <img src="./imagenes/beneficio_3.jpeg" class="card-img-top" alt="beneficio_3">
                     <div class="card-body">
                       <h5 class="card-title">Reducción de la sensación térmica</h5>
-                      <p class="card-text">Generan una corriente de aire que incrementa la evaporación del sudor en la piel, lo que proporciona una sensación de frescura sin bajar la temperatura del ambiente.</p>
-                      <a href="#" class="btn btn-primary-custom">Ver más</a>
+                      <p class="card-text recortado">Generan una corriente de aire que incrementa la evaporación del sudor en la piel, lo que proporciona una sensación de frescura sin bajar la temperatura del ambiente...</p>
+                      <p id="masTexto2">Además, gracias a su funcionamiento silencioso y su diseño estético los convierten en una opción versátil y agradable para cualquier espacio interior.</p>
+                      <button id="botonVerMas2" class="btn btn-primary-custom">Ver más</button>
                     </div>
                   </div>
           </div>
       </div>
     </div>
+<!--Testimonios-->
     <div class="container c6">
             <div class="row">
                 <h3 class="text-center">Testimonios</h3>
@@ -226,6 +265,7 @@
                 </div>
             </div>
     </div>
+<!--Formulario correo electrónico-->
     <div class="container c7">
           <form>
             <div class="mb-3">
@@ -244,6 +284,7 @@
             <button type="submit" class="btn-primary-custom">Enviar</button>
           </form>
     </div>
+<!--Chat-->
     <div class="container c8">
       <div class="chat-popup" id="myForm" style="display: none;">
           <form action="/action_page.php" class="form-container">
@@ -255,49 +296,22 @@
               <button type="button" class="btn cancel" onclick="toggleForm()">Close</button>
           </form>
       </div>
-      <button type="button" class="btn" onclick="toggleForm()">Chat <i class="fa-solid fa-comment-dots fa-2xl"></i></button>
+      <button type="button" class="btn" onclick="toggleForm()">¿Necesitas ayuda de un operador?<i class="fa-solid fa-comment-dots fa-xl"></i></button>
     </div>
-    <script src="script.js"></script>  
+<!--Cookies-->
     <div class="container c9">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus repudiandae quidem animi earum natus provident ea laudantium officiis est, voluptatem voluptatibus magnam, rem velit, excepturi possimus omnis? Rem, dolor corporis?</p>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo de Mensaje de Cookies</title>
-    <style>
-        /* Estilos para el mensaje de cookies */
-        .cookie-message {
-            position: fixed;
-            bottom: 20px;
-            left: 20px;
-            background-color: #f0f0f0;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        }
-        .cookie-message p {
-            margin: 0;
-        }
-        .cookie-close {
-            float: right;
-            cursor: pointer;
-        }
-    </style>
-<div class="cookie-message" id="cookieMessage">
-    <p>Este sitio web utiliza cookies para asegurarse de obtener la mejor experiencia en nuestro sitio web. <i class="fa-solid fa-cookie-bite fa-2xl"></i> <a href="/politica-de-cookies">Más información</a></p>
-    <span class="cookie-close" onclick="closeCookieMessage()">Aceptar</span>
-</div>
-<script>
-    // Función para cerrar el mensaje de cookies al hacer clic en "Cerrar"
-    function closeCookieMessage() {
-        document.getElementById("cookieMessage").style.display = "none";
-    }
-</script>
+      <div class="cookie-message" id="cookieMessage">
+       <p>Este sitio web utiliza cookies para asegurarse de obtener la mejor experiencia en nuestro sitio web. <i class="fa-solid fa-cookie-bite fa-2xl"></i> <a href="/politica-de-cookies">Más información</a></p>
+        <span class="cookie-close" onclick="closeCookieMessage()">Aceptar</span>
+      </div>
     </div>
+<!--Footer-->
     <div class="container c10">
       <footer>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti suscipit ipsam itaque, deserunt aliquam non? Neque, et! Aut eum provident, facilis amet libero rem assumenda error! Illo perferendis soluta adipisci?</footer>
     </div>
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
           <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+          <script src="script.js"></script>
 </body>
 </html>

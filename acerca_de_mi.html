@@ -8,59 +8,136 @@
     <link rel="stylesheet" href="style2.css">
     <script defer src="./main.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Petit+Formal+Script&display=swap');
+      </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+      </style>
 </head>
 <body>
-    <div class="container c0">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html"><img src="./fantastic/logo.png" alt="inicio"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Servicios y productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Portafolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Contacto</a>
-                  </li>
-                </ul>
+<!--menú-->
+<div class="container c0">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="./fantastic/Copia de logo.png" alt="Bootstrap" width="30" height="24">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+<!--Título, selfie-->
+<div class="container c1">
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col class=col-sm-12 col-xl-8">
+            <div class="titulo"><h1>Acerca de mí</h1></div>
+              <div class="card00" style="width:auto;">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis reiciendis consectetur quaerat nulla velit, atque exercitationem consequuntur cumque magni, vel cupiditate corporis ullam ex et minima. Sint totam in eius!</p>
+              </div>
+              </div>
+          <div class="col class=col-sm-12 col-md-4 col-xl-4">
+            <img src="./imagenes/testimonio_1.jpeg" class="img-fluid">
+          </div>
+        </div>
+    </div>
+  </div>
+<!--Personal background-->
+<div class="container c2">
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col class=col-sm-12 col-xl-8">
+              <img src="./imagenes/testimonio_2.jpeg" class="img-fluid">
+            </div>
+            <div class="col class=col-sm-12 col-xl-4">
+              <div class="card0" style="width:auto;">
+              <p>PERSONAL BACKGROUND ipsum dolor sit amet consectetur adipisicing elit. Aliquam ullam unde deleniti minima sequi ipsam facere neque. Odit vero impedit sint eos dolor soluta dicta nobis, harum, dignissimos consequatur enim.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+  </div>
+<!--Interests-->
+<div class="container c3">
+  <div class="container-fluid">
+    <div class="row">
+              <div class="col1 class=col-sm-12 col-xl-6">
+                <div class="card1" style="width:auto;">
+                <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia nihil numquam necessitatibus modi eligendi enim reprehenderit dolore id autem laboriosam? Libero nostrum alias atque adipisci optio et rerum deserunt quas?</P>
               </div>
             </div>
-        </nav>
+              <div class="col2 class=col-sm-12 col-xl-6">
+                <div class="card2" style="width:auto;">
+                <p>MY INTERESTS ipsum dolor sit amet consectetur adipisicing elit. Aliquam ullam unde deleniti minima sequi ipsam facere neque. Odit vero impedit sint eos dolor soluta dicta nobis, harum, dignissimos consequatur enim.</p>
+              </div>
+            </div>
+      </div>
     </div>
-    <div class="container c1">
+  </div>
+<!--Education-->
+<div class="container c4">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-6"><p>ABOUT MELorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quos sapiente praesentium suscipit! Ea recusandae, perferendis enim alias minima iusto rem velit in eveniet neque ipsa dolor ad voluptatem quam!</p></div>
-            <div class="col-6"><img src="./imagenes/testimonio_1.jpeg" class="img-fluid" alt="selfie"></div>
-          </div>
-        </div>   
+              <div class="col3 class=col-sm-12 col-xl-6">
+                <div class="card3" style="width:auto;">
+                <P>EDUCATION, ipsum dolor sit amet consectetur adipisicing elit. Mollitia nihil numquam necessitatibus modi eligendi enim reprehenderit dolore id autem laboriosam? Libero nostrum alias atque adipisci optio et rerum deserunt quas?</P>
+              </div>
+            </div>
+              <div class="col4 class=col-sm-12 col-xl-6">
+                <div class="card4" style="width:auto;">
+                <p>HOBBIES BACKGROUND ipsum dolor sit amet consectetur adipisicing elit. Aliquam ullam unde deleniti minima sequi ipsam facere neque. Odit vero impedit sint eos dolor soluta dicta nobis, harum, dignissimos consequatur enim.</p>
+              </div>
+            </div>
+        </div>
     </div>
-    <div class="container c2">
+  </div>
+<!--Hobbies-->
+<div class="container c5">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-6"><p>ABOUT MELorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quos sapiente praesentium suscipit! Ea recusandae, perferendis enim alias minima iusto rem velit in eveniet neque ipsa dolor ad voluptatem quam!</p></div>
-            <div class="col-6"><p>PERSONAL BACKGROUNDLorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque molestiae aperiam quasi tempora? Et eveniet quod minus sit, commodi distinctio enim optio alias ipsum voluptas perspiciatis tempore. Doloremque, quos quas?</p></div>
+              <div class="col5 class=col-sm-12 col-xl-6">
+                <div class="card5" style="width:auto;">
+                <P>PROFESSIONAL EXPERIENCE5, ipsum dolor sit amet consectetur adipisicing elit. Mollitia nihil numquam necessitatibus modi eligendi enim reprehenderit dolore id autem laboriosam? Libero nostrum alias atque adipisci optio et rerum deserunt quas?</P>
+              </div>
           </div>
-        </div>   
+              <div class="col6 class=col-sm-12 col-xl-6">
+                <div class="card6" style="width: auto;">
+                <p>GOALS BACKGROUND6 ipsum dolor sit amet consectetur adipisicing elit. Aliquam ullam unde deleniti minima sequi ipsam facere neque. Odit vero impedit sint eos dolor soluta dicta nobis, harum, dignissimos consequatur enim.</p>
+                </div>
+              </div>
+        </div>
     </div>
-    <div class="container c3">
-        <div class="row">
-            <div class="col-6"><p>EDUCATIONLorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quos sapiente praesentium suscipit! Ea recusandae, perferendis enim alias minima iusto rem velit in eveniet neque ipsa dolor ad voluptatem quam!</p></div>
-            <div class="col-6"><p>HOBBIESLorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque molestiae aperiam quasi tempora? Et eveniet quod minus sit, commodi distinctio enim optio alias ipsum voluptas perspiciatis tempore. Doloremque, quos quas?</p></div>
-          </div>
-        </div>   
-    </div>
-    <div class="container c4">
-        <div class="row">
-            <div class="col-6"><p>PROFESSIONAL EXPERIENCELorem ipsum, dolor sit amet consectetur adipisicing elit. Ut quos sapiente praesentium suscipit! Ea recusandae, perferendis enim alias minima iusto rem velit in eveniet neque ipsa dolor ad voluptatem quam!</p></div>
-            <div class="col-6"><p>GOALSLorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque molestiae aperiam quasi tempora? Et eveniet quod minus sit, commodi distinctio enim optio alias ipsum voluptas perspiciatis tempore. Doloremque, quos quas?</p></div>
-          </div>
-        </div>   
-    </div>
+  </div>
+</body>
 </html>

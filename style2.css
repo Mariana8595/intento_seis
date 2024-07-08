@@ -1,5 +1,5 @@
 .c0{
-    background-color: #F0F0F0;
+    background-color: #60a6f1;
     /* The grid: Four equal columns that floats next to each other */
 .column {
     float: left;
@@ -45,6 +45,102 @@
     cursor: pointer;
   }
 }
-.container c1{
-    background-color: aquamarine;
+.c1{
+  background-color: aquamarine;
+  border: 1px dashed #000;
+  .titulo{
+    border: 1px dashed #000;
+    font-family: "Petit Formal Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  }
+  .card00{
+    border: 1px dashed #000;
+      font-family: "Quicksand", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+  }
+.c2{
+  background-color: #60a6f1;
+  border: 1px dashed #000;
+  .card0{
+    border: 1px dashed #000;
+    font-family: "Quicksand", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+  }
 }
+.c3{
+  background-color: rgb(193, 169, 220);
+  border: 1px dashed #000;
+  .col1{
+    border: 1px dashed #000;
+  }
+  .card1{
+    background-color: rgb(235, 163, 248);
+    border: 1px dashed #000;
+    font-family: "Quicksand", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+  }
+  .col2{
+    border: 1px dashed #000;
+  }
+  .card2{
+    background-color: rgb(236, 172, 214);
+    font-family: "Quicksand", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+  }
+}
+.c4{
+  background-color: rgb(249, 176, 4);
+  .col3{
+    border: 1px dashed #000;
+  }
+  .card3{
+    background-color: antiquewhite;
+    font-family: "Quicksand", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+  }
+  .col4{
+    border: 1px dashed #000;
+  }
+  .card4{
+    background-color: antiquewhite;
+    font-family: "Quicksand", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+  }
+}
+.c5 {
+  background-color: rgb(184, 213, 137);
+  .col5{
+    border: 1px dashed #000;
+  }
+  .card5{
+    background-color: rgb(249, 250, 247);
+    font-family: "Quicksand", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+  }
+  .col6{
+    border: 1px dashed #000;
+  }
+  .card6{
+    background-color: beige;
+    font-family: "Quicksand", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+  }}
