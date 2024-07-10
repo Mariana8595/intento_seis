@@ -31,46 +31,41 @@
 </head>
 <body>
 <!--menú-->
-  <div class="container c0">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="./fantastic/logo.png" alt="Bootstrap" width="270" height="180">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="acerca_de_mi.html">Acerca de mí</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="acerca_de_mi.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+    <div class="container c0">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./fantastic/logo.png" alt="Bootstrap" width="270" height="180">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="acerca_de_mi.html">Acerca de mí</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Nuestros Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Ventiladores</a></li>
+                  <li><a class="dropdown-item" href="#">Paneles solares</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Baterias de larga duración</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
     </div>
+
 <!--título-->    
     <div class="container c1">
       <div class="row">
@@ -78,74 +73,82 @@
             <p>Ventilador Morrow de techo con cadena. Artesanal, para exteriores, diámetro de 1.32 metros y luz LED en color espresso</p>
       </div>
     </div>
-    </div>   
+    </div> 
+
 <!--Portada: imagen, botón, formulario y características-->        
     <div class="container c2">
-    <div class="row">
-    <div class="col-sm-12 col-xl-6">
-          <img src="./imagenes/portada2.jpeg" alt="Portada" class="img-fluid">
-          <div class="row">
-            <div class="column">
-              <img src="./imagenes/portada3.webp" alt="Acercamiento" class="img-fluid" onclick="myFunction(this);">
+      <div class="row">
+        <div class="col-xl-6">
+          <!-- Inicia galería-->
+           <!-- The expanding image container -->
+          <div class="container-gallery">
+            <!-- Close the image -->
+            <!-- <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span> -->
+
+            <!-- Expanded image -->
+            <img src="./imagenes/portada2.jpeg" id="expandedImg" style="width:100%" >
+
+            <!-- Image text -->
+            <div id="imgtext"></div>
+          </div>
+
+          <div class="row-gallery">
+            <div class="column-gallery">
+              <img src="./imagenes/portada2.jpeg" alt="Nature"  onclick="myFunction(this);">
             </div>
-            <div class="column">
-              <img src="./imagenes/portada4.webp" alt="Exterior" class="img-fluid" onclick="myFunction(this);">
+            <div class="column-gallery">
+              <img src="./imagenes/portada3.webp" alt="Snow" onclick="myFunction(this);">
             </div>
-            <div class="column">
-              <img src="./imagenes/portada6.jpg" alt="Exterior_2" class="img-fluid" onclick="myFunction(this);">
+            <div class="column-gallery">
+              <img src="./imagenes/portada4.webp" alt="Mountains" onclick="myFunction(this);">
             </div>
-            <div class="column">
-              <img src="./imagenes/portada7.jpg" alt="Voltaje" class="img-fluid" onclick="myFunction(this);">
+            <div class="column-gallery">
+              <img src="./imagenes/portada7.jpg" alt="Lights" onclick="myFunction(this);">
+            </div>
+          </div>
+        <!--Termina galería-->
+        </div>
+        <div class="col-xl-6">
+          <p>El ventilador de techo Morrow Bay 1.32 metros cuenta con estilo transitorio, motor reversible de alta
+            resistencia, un kit de luz LED regulable integrado que evoca una simplicidad refrescante y combina líneas limpias
+            con detalles cálidos.</p>
+          <label for="cars">Color:</label>
+          <select id="cars" name="cars">
+            <option value="volvo">Espresso</option>
+            <option value="saab">Negro</option>
+            <option value="fiat">Blanco</option>
+            <option value="audi">Azul</option>
+          </select>
+          <div class="col-sm-12  col-xl-8">
+            <br><br>
+            <textarea name="message" rows="10" cols="30">¿Necesitas algún requerimiento especial? Escríbelo aquí</textarea>
+            <br><br>
+            <button type="submit" class="btn-primary-custom">Enviar</button>
+            </form>
+            <div class="container-fluid">
+              <ul>
+                <br>
+                <h3>Características</h3><br>
+                <li>Para espacios interiores y exteriores</li>
+                <li>52 Pulgadas (132 cm) de diámetro</li>
+                <li>5 Aspas Reversibles</li>
+                <li>Incluye capota abierta para el kit de luz</li>
+                <li>Incluye un foco LED de 5W regulable</li>
+                <li>Incluye tubos de extensión de 4 y 2 pulgadas</li>
+                <li>Motor reversible de 3 velocidades WhisperWind</li>
+                <li>Cadena para ajuste de velocidades incluida</li>
+                <li>Garantía del motor de por vida</li>
+                <li>Garantía del resto de las partes de ventilador de 1 año</li>
+                <li>CFM (en velocidad alta): 4,905</li>
+                <li>Velocidad el Aire: 4.45 MPH / 7.16 KMPH</li>
+                <li>Lumens: 450</li>
+              </ul>
+            </div>
           </div>
         </div>
+      </div>
     </div>
-    <div class="col-sm-12  col-xl-6">
-      <p>El ventilador de techo Morrow Bay 1.32 metros cuenta con estilo transitorio, motor reversible de alta resistencia, un kit de luz LED regulable integrado que evoca una simplicidad refrescante y combina líneas limpias con detalles cálidos.</p>
-    <label for="cars">Color:</label>
-    <select id="cars" name="cars">
-      <option value="volvo">Espresso</option>
-      <option value="saab">Negro</option>
-      <option value="fiat">Blanco</option>
-      <option value="audi">Azul</option>
-    </select>
-<div class="col-sm-12  col-xl-8">
-      <br><br>
-  <textarea name="message" rows="10" cols="30">¿Necesitas algún requerimiento especial? Escríbelo aquí</textarea>
-      <br><br>
-      <button type="submit" class="btn-primary-custom">Enviar</button>
-      </form>
-      <div class="container-fluid">
-      <ul>
-        <br>
-        <h3>Características</h3><br>
-        <li>Para espacios interiores y exteriores</li>
-        <li>52 Pulgadas (132 cm) de diámetro</li>
-        <li>5 Aspas Reversibles</li>
-        <li>Incluye capota abierta para el kit de luz</li>
-        <li>Incluye un foco LED de 5W regulable</li>
-        <li>Incluye tubos de extensión de 4 y 2 pulgadas</li>
-        <li>Motor reversible de 3 velocidades WhisperWind</li>
-        <li>Cadena para ajuste de velocidades incluida</li>
-        <li>Garantía del motor de por vida</li>
-        <li>Garantía del resto de las partes de ventilador de 1 año</li>
-        <li>CFM (en velocidad alta): 4,905</li>
-        <li>Velocidad el Aire: 4.45 MPH / 7.16 KMPH</li>
-        <li>Lumens: 450</li>
-      </ul>
-    </div>    
-</div>
-    </div>
-    </div>
-    <!-- The expanding image container -->
-    <div class="container">
-  <!-- Close the image -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <!-- Expanded image -->
-  <img id="expandedImg" style="width:50%">
-  <!-- Image text -->
-  <div id="imgtext"></div>
-    </div>
-    </div>
+
 <!--Container vacío jeje--> 
     <div class="container c3">
         <div class="row">
@@ -174,7 +177,7 @@
           <h3 class="text-center">Beneficios</h3>
       </div>
       <div class="row">
-          <div class="col-sm-12 col-md-4 col-xl-4">
+          <div class="col-sm-12 col-md-12 col-xl-4 mb-4" align="center">
                     <div class="card 1" style="width: 18rem;">
                       <img src="./imagenes/beneficio_1.jpeg" class="card-img-top" alt="beneficio_1">
                       <div class="card-body">
@@ -185,7 +188,7 @@
                       </div>
                     </div>
           </div>
-          <div class="col-sm-12 col-md-4 col-xl-4">
+          <div class="col-sm-12 col-md-12 col-xl-4 mb-4" align="center">
                     <div class="card 2" style="width: 18rem;">
                       <img src="./imagenes/beneficio_2.jpeg" class="card-img-top" alt="beneficio_2">
                       <div class="card-body">
@@ -196,7 +199,7 @@
                       </div>
                     </div>
           </div>
-          <div class="col-sm-12 col-md-4 col-xl-4">
+          <div class="col-sm-12 col-md-12 col-xl-4 mb-4" align="center">
                   <div class="card 3" style="width: 18rem;">
                     <img src="./imagenes/beneficio_3.jpeg" class="card-img-top" alt="beneficio_3">
                     <div class="card-body">
@@ -215,7 +218,7 @@
                 <h3 class="text-center">Testimonios</h3>
             </div>
             <div class="row">
-                <div class="col-sm-12 col-md-4 col-xl-4">
+                <div class="col-sm-12 col-md-12 col-xl-4 mb-4" align="center">
                     <div class="card 1" style="width: 18rem;">
                       <img src="./imagenes/testimonio_1.jpeg" class="card-img-top" alt="testimonio_1">
                       <div class="card-body">
@@ -231,7 +234,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4 col-xl-4">
+                <div class="col-sm-12 col-md-12 col-xl-4 mb-4" align="center">
                     <div class="card 2" style="width: 18rem;">
                       <img src="./imagenes/testimonio_2.jpeg" class="card-img-top" alt="testimonio_2">
                       <div class="card-body">
@@ -247,7 +250,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4 col-xl-4">
+                <div class="col-sm-12 col-md-12 col-xl-4 mb-4" align="center">
                   <div class="card 3" style="width: 18rem;">
                     <img src="./imagenes/testimonio_3.jpeg" class="card-img-top" alt="testimonio_3">
                     <div class="card-body">
@@ -309,9 +312,9 @@
     <div class="container c10">
       <footer>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti suscipit ipsam itaque, deserunt aliquam non? Neque, et! Aut eum provident, facilis amet libero rem assumenda error! Illo perferendis soluta adipisci?</footer>
     </div>
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-          <script src="script.js"></script>
+          
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
