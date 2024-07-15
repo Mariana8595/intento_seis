@@ -12,7 +12,6 @@
     expandImg.parentElement.style.display = "block";
   }
   //Ver mas
-  
   // Función para abrir, cerrar o minimizar el chat
   function toggleForm() {
     var chatPopup = document.getElementById("myForm");
