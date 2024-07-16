@@ -128,58 +128,27 @@
   color:  #06bea6  /* Color de las estrellas (verde) */
   } 
 .c8{
-  position: fixed;  
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  background-color: #63d6cf;
-  color: black;
-  bottom: 20px;
-  right: 40px;
-  width: 300px; /* Ancho del contenedor de chat */
-  max-width: calc(100vw - 40px); /* Ancho máximo para evitar que se desborde */
-  z-index: 999;
-  border-radius: 20px; /* Añadir bordes redondeados para mejorar el aspecto */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añadir sombra para resaltar el contenedor */
+  /* Estilo del botón flotante de WhatsApp */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px; /* Distancia desde el fondo de la pantalla */
+  right: 45px; /* Distancia desde el borde derecho de la pantalla */
+  width: 60px; /* Ancho del botón */
+  height: 60px; /* Alto del botón */
+  background-color: #25D366; /* Color de fondo del botón (verde de WhatsApp) */
+  border-radius: 50%; /* Hace que el botón sea redondo */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2); /* Sombra del botón */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* Asegura que el botón esté encima de otros elementos */
+  text-decoration: none; /* Elimina el subrayado del enlace */
 }
-.chat-popup {
-  position: relative;
-  border: 15px solid #63d6cf;
-  z-index: 9;
-  background-color: #F0F0F0; /* Añadimos un color de fondo */
-  padding: 20px; /* Añadimos espacio interno */
-  max-width: 300px; /* Ajustamos el ancho máximo */
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  color: #63d6cf;
+
+/* Estilo adicional para el icono, si es necesario */
+.whatsapp-button i {
+  color: #fff; /* Color del icono dentro del botón */
 }
-.form-container {
-  width: 100%
-}
-.form-container textarea {
-  width: calc(100% - 22px);
-  padding: 10px;
-  margin: 5px 5px 5px 5px;
-  border: none;
-  background:  white;
-}
-.form-container .btn {
-  background-color: #4CAF50;
-  color:  white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  margin-bottom: 5px;
-  opacity: 0.8;
-  color: black;
-}
-.form-container .cancel {
-  background-color: red;
-  color: black;
-}
-.form-container .btn:hover,
-.open-button:hover {
-    opacity: 1;
 }
 .c9{
   background-color: #F0F0F0;

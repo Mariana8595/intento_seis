@@ -47,10 +47,10 @@
 }
 .c1{
   background-color: rgb(233, 215, 192);;
-  border: 1px dashed #000;
+  border: 1px;
   .titulo{
     background-color: rgb(218, 163, 143);
-    border: 1px dashed #000;
+    border: 1px dashed rgb(218, 163, 143);
     font-family: "Petit Formal Script", cursive;
     font-weight: 400;
     font-style: normal;
@@ -58,7 +58,8 @@
   }
   .card00{
       background-color: rgb(218, 163, 143);
-      border: 1px dashed #000;
+      border: 1px;
+      padding: 10px;
       font-family: "Quicksand", sans-serif;
       font-optical-sizing: auto;
       font-weight: <weight>;
@@ -67,21 +68,24 @@
   }
 .c2{
   background-color: rgb(233, 215, 192);;
-  border: 1px dashed #000;
+  border: 1px;
+  padding: 10px;
   .card0{
     background-color: rgb(146, 173, 164);
-    border: 1px dashed #000;
+    border: 1px;
+    padding: 10px;
     font-family: "Quicksand", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: <weight>;
-      font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
   }
 }
 .c3{
   background-color: rgb(233, 215, 192);;
   
   .col1{
-    border: 1px dashed #000;
+    border: 1px;
+    padding: 10px;
   }
   .card1{
     background-color: rgb(254, 216, 166);
@@ -91,7 +95,8 @@
       font-style: normal;
   }
   .col2{
-    border: 1px dashed #000;
+    border: 1px;
+    padding: 10px;
   }
   .card2{
     background-color: rgb(155, 125, 97);
@@ -104,7 +109,8 @@
 .c4{
   background-color: rgb(233, 215, 192);;
   .col3{
-    border: 1px dashed #000;
+    border: 1px;
+    padding: 10px;
   }
   .card3{
     background-color: rgb(155, 125, 97);
@@ -114,20 +120,22 @@
       font-style: normal;
   }
   .col4{
-    border: 1px dashed #000;
+    border: 1px;
+    padding: 10px;
   }
   .card4{
     background-color: rgb(254, 216, 166);
     font-family: "Quicksand", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: <weight>;
-      font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
   }
 }
 .c5 {
   background-color: rgb(233, 215, 192);;
   .col5{
-    border: 1px dashed #000;
+    border: 1px;
+    padding: 10px;
   }
   .card5{
     background-color: rgb(254, 216, 166);
@@ -137,7 +145,8 @@
       font-style: normal;
   }
   .col6{
-    border: 1px dashed #000;
+    border: 1px;
+    padding: 10px;
   }
   .card6{
     background-color:rgb(155, 125, 97);
@@ -146,3 +155,4 @@
       font-weight: <weight>;
       font-style: normal;
   }}
+ 
